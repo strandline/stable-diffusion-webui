@@ -380,7 +380,6 @@ class Api:
                 "name": upscaler.name,
                 "model_name": upscaler.scaler.model_name,
                 "model_path": upscaler.data_path,
-                "model_url": None,
                 "scale": upscaler.scale,
             }
             for upscaler in shared.sd_upscalers

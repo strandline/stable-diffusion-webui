@@ -1,8 +1,10 @@
 @echo off
 
 set PYTHON=
-set GIT=
-set VENV_DIR=
-set COMMANDLINE_ARGS=
+set GIT=C:\Program Files\Git\bin\git.exe
+set VENV_DIR=venv
+set COMMANDLINE_ARGS=--xformers --opt-channelslast --update-check --autolaunch
+
+rem https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations
 
 call webui.bat

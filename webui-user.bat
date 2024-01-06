@@ -1,6 +1,6 @@
 @echo off
 
-set PYTHON=
+set PYTHON=C:\Python3_10_11\python.exe
 set GIT=C:\Program Files\Git\bin\git.exe
 set VENV_DIR=venv
 set COMMANDLINE_ARGS=--xformers --no-half-vae --opt-channelslast --update-check --autolaunch
